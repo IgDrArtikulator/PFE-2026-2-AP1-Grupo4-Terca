@@ -70,3 +70,61 @@
 - Relatórios **curtos e visuais**. Os relatórios antigos, de 16–17 páginas, não eram lidos pelos pais.
 - Canal de comunicação e acompanhamento do desenvolvimento do filho.
 ---
+## 6. Área do Professor
+ 
+- **Agenda do dia**, com filtro por unidade/marca (PKZ, One to One ou todos).
+- **Confirmação de presença / check-in** do aluno — o relatório só é liberado após marcar a presença.
+- **Formulário de relatório de treino** rápido, com campos:
+  - Objetivo da sessão (ex.: hipertrofia, membros inferiores)
+  - Intensidade
+  - Desempenho (dentro do esperado / abaixo / acima)
+  - Dor ou desconforto
+  - Conduta para a próxima aula
+  - Campo livre de observações relevantes
+- **Formulários diferenciados** para PKZ (atleta) e One to One (estúdio).
+- **Observações do treino anterior exibidas automaticamente** na agenda / no check-in, sem o professor precisar buscar o aluno e abrir o histórico. *(Solicitação enfatizada na reunião.)*
+- **Lista de relatórios de treino pendentes** por professor.
+- Preenchimento possível pelo app do professor **ou** pelo terminal da recepção.
+- **UX otimizada por tempo:** o professor atende até 3 alunos por horário — o fluxo precisa ser rápido para não fazê-lo perder o timing da aula.
+---
+ 
+## 7. Área de Coordenação / Admin / Recepção
+ 
+- **Cadastro completo do aluno** (ficha, dados pessoais, responsáveis).
+- **Testes físicos:** lançamento dos ~16 testes, com parametrização por faixa etária/categoria (ex.: atleta de 7 anos avaliado dentro da categoria de 7 anos).
+- **Controle de reteste:** alerta automático de quem está com a reavaliação mensal atrasada.
+  - Dor atual: controle manual em Excel; retestes atrasavam, gerando problema de relacionamento com os pais.
+- **Montagem do cronograma/microciclo mensal** de treinos.
+- **Upload e anexo de arquivos externos** ao perfil do aluno (ex.: laudo do fisioterapeuta, exames — documentos não gerados pelo sistema).
+- **Gestão de créditos e frequência** por aluno.
+- **Agenda geral** com filtro por unidade e visão consolidada.
+- **Gestão de cobrança/mensalidades**, retirando essa função do contato pessoal da recepcionista.
+---
+ 
+## 8. Dashboard CEO / Diretoria
+ 
+- Visão consolidada com os indicadores já citados como necessários:
+  - **Alunos ativos**
+  - **Atividades/treinos realizados no mês**
+  - **Testes físicos realizados no mês**
+  - **Relatórios preenchidos vs. pendentes**
+- Recorte por **unidade** (sede, Vogue Square, Oasis) e por **marca** (PKZ / One to One).
+- Indicadores financeiros e de inadimplência.
+- Frequência e adesão dos alunos.
+- Feedbacks dos alunos consolidados.
+---
+ 
+## 9. Diretrizes de UX/UI (pedidos explícitos do cliente)
+ 
+- **Priorizar o visual sobre o numérico.** Tabelas com muitos números não são compreendidas pelos pais — traduzir em gráficos e indicadores palpáveis.
+- **Reduzir cliques e fricção.** O sistema atual exige navegação confusa para abrir um teste ou relatório.
+- **Usuários com baixa familiaridade tecnológica** entre os gestores — interface precisa ser autoexplicativa.
+- **"Falta glamour"** foi a expressão usada: o cliente reconhece que o produto atual é funcional mas feio, e considera a apresentação visual crítica para a percepção da marca.
+- **Automatizar sem despersonalizar:** preocupação declarada de que a automação afaste a equipe do aluno. A tecnologia deve facilitar processos, não substituir o relacionamento.
+---
+ 
+## 10. Fora do escopo imediato (backlog / oportunidades futuras)
+ 
+- **Scout / análise de desempenho esportivo:** hoje 100% manual (assistir a ~10 jogos por atleta, marcando passes, finalizações etc.). Cliente quer rentabilizar o serviço reduzindo o trabalho manual — possível produto futuro.
+- Integração nativa com WhatsApp para notificações e confirmações.
+- Aplicativo mobile (o foco atual do nosso time é desktop).

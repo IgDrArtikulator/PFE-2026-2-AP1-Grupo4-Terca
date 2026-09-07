@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="QET3zrlIYhP81QftF_Jd">
-    <mxGraphModel dx="708" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
             <mxPoint x="384" y="520" as="sourcePoint" />
             <mxPoint x="200" y="590" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="lIQkqegRvPy4ED7mbs_k-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="testo&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="384" y="230" as="geometry" />
         </mxCell>
         <mxCell id="eH5lVRWYEmyaXm-kGGNC-1" parent="1" style="html=1;whiteSpace=wrap;" value="PKZ/OneToOne Hub" vertex="1">
           <mxGeometry height="50" width="110" x="350" y="390" as="geometry" />

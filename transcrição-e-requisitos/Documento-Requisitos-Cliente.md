@@ -24,11 +24,7 @@
 - Front-end para **desktop/computador**.
 - Entregáveis previstos:
   1. **Site institucional público** (não existe hoje)
-  2. **Área do Aluno / Atleta**
-  3. **Área do Responsável**
-  4. **Área do Professor**
-  5. **Área de Coordenação / Admin / Recepção**
-  6. **Dashboard CEO / Diretoria**
+
 ---
  
 ## 3. Site Institucional (público)

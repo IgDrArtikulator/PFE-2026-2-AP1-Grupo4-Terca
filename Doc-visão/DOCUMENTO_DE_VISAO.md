@@ -18,9 +18,9 @@ O projeto terá como foco inicial o desenvolvimento de uma experiência web desk
 
 A plataforma atenderá principalmente três grupos:
 
-•⁠  ⁠*Alunos One to One*: adultos, atletas e não atletas, de diferentes idades e objetivos.
-•⁠  ⁠*Atletas PKZ*: principalmente crianças e adolescentes em formação esportiva.
-•⁠  ⁠*Responsáveis pelos atletas PKZ*: pais ou responsáveis que acompanham a evolução, avaliações e informações dos atletas.
+- **Alunos One to One**: adultos, atletas e não atletas, de diferentes idades e objetivos.
+- **Atletas PKZ**: principalmente crianças e adolescentes em formação esportiva.
+- **Responsáveis pelos atletas PKZ**: pais ou responsáveis que acompanham a evolução, avaliações e informações dos atletas.
 
 Também serão considerados usuários internos, como gestores, professores e profissionais responsáveis pelo acompanhamento dos alunos.
 

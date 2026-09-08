@@ -70,8 +70,8 @@ Para a direção das duas marcas, a plataforma é o principal motor digital de c
 ### - Professores e Profissionais de Treinamento
 Eles são o grande diferencial prático e o centro da imagem das marca. Os professores de educação física são fundamentais para gerar autoridade. A especialização de cada um precisa ser evidenciada: seja a didática e o cuidado no trato com as crianças e jovens da PKZ, seja a excelência técnica e o foco em resultados intensos para os jovens e adultos da One to One.
 
-### - Alunos da Área Tech do Ibmec (Equipe de Desenvolvimento)
-Este grupo é formado pelos estudantes dos cursos de graduação da área tech do Ibmec que são responsáveis por dar vida à plataforma. Para eles, o projeto vai muito além de um trabalho acadêmico: é a oportunidade de atuar em um cenário real de mercado, construindo um produto digital de alto nível que fará parte de seus portfólios profissionais. Utilizando metodologias ágeis, o foco dessa equipe é garantir a felicidade do cliente, entregando uma solução que gere valor.
+### - Alunos da Área Tech do Ibmec
+Este grupo é formado pelos estudantes dos cursos de graduação da área tech do Ibmec que são responsáveis por dar vida ao website. Para eles, o projeto vai muito além de um trabalho acadêmico: é a oportunidade de atuar em um cenário real de mercado, construindo um produto digital relevante que fará parte de seus portfólios profissionais. Utilizando metodologias ágeis, o foco dessa equipe é garantir a felicidade do cliente, entregando uma solução que gere valor.
 
 ## 3.2. Usuários
 

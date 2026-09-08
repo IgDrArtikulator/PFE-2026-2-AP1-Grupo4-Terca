@@ -2,10 +2,6 @@
 
 ## 1. Introdução
 
-**Responsável:** Arthur
-
-## 1. Introdução
-
 ### 1.1 Objetivo do documento
 
 Este Documento de Visão tem como objetivo definir a visão geral, o posicionamento, os principais requisitos e as diretrizes para o desenvolvimento da nova plataforma digital das marcas PKZ (Playmakers) e One to One.

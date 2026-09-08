@@ -71,7 +71,28 @@ O desenvolvimento terá como prioridade o front-end web para computadores, mas t
 
 ## 6. Restrições e Premissas
 
-**Responsável:** Mateus
+### 6.1 Restrições
+
+O projeto possui algumas restrições iniciais:
+
+- O escopo atual é direcionado ao front-end web;
+- A prioridade é a experiência desktop-first;
+- O aplicativo mobile não faz parte do desenvolvimento inicial;
+- Integrações avançadas poderão depender de sistemas externos;
+- O WhatsApp será inicialmente utilizado como canal de contato;
+- A integração nativa com WhatsApp poderá ser desenvolvida posteriormente;
+- Algumas informações poderão depender de dados fornecidos pelos gestores.
+
+### 6.2 Premissas
+
+Considera-se que:
+
+- As marcas possuem conteúdo visual suficiente para construção da galeria;
+- Os gestores fornecerão informações sobre alunos, avaliações e treinamentos;
+- A metodologia PKZ permanecerá baseada em avaliações periódicas;
+- A plataforma será utilizada como complemento, e não substituição, do relacionamento humano;
+- O sistema deverá permitir evolução futura para aplicativo mobile;
+- A solução poderá posteriormente receber novas funcionalidades.
 
 ---
 

@@ -28,20 +28,20 @@ Também serão considerados usuários internos, como gestores, professores e pro
 
 O projeto contempla inicialmente:
 
-•⁠  ⁠Site institucional das marcas PKZ e One to One;
-•⁠  Uma landing page para cada uma das empresas;
-•⁠  ⁠Cadastro de alunos;
-•⁠  ⁠Autenticação e acesso à plataforma;
-•⁠  Sobre nós;
-•⁠  ⁠Localização;
-•⁠  ⁠Informações sobre treinos;
-•⁠  ⁠Galeria de fotos e vídeos;
-•⁠  ⁠Informações sobre unidades;
-•⁠  ⁠Contato com as marcas;
-•⁠  ⁠Apresentação dos planos de atendimento;
-•⁠  ⁠Interface diferenciada de acordo com o perfil do usuário.
+- Site institucional das marcas PKZ e One to One
+- Uma landing page para cada uma das empresas
+- Cadastro de alunos
+- Autenticação e acesso à plataforma
+- Sobre nós
+- Localização
+- Informações sobre treinos
+- Galeria de fotos e vídeos
+- Informações sobre unidades
+- Contato com as marcas
+- Apresentação dos planos de atendimento
+- Interface diferenciada de acordo com o perfil do usuário
 
-O desenvolvimento terá como prioridade o front-end web para computadores, mantendo o aplicativo mobile atual como referência e possível integração futura.
+O desenvolvimento terá como prioridade o front-end web para computadores, mas também com funcionalidade para mobile.
 
 ---
 

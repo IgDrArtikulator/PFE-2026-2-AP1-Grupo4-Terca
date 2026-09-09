@@ -121,7 +121,52 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 
 ## 5. Requisitos de Alto Nível
 
-**Responsável:** Guilherme
+5. Requisitos de Alto Nível
+5.1 Requisitos funcionais
+RF01 — Site institucional
+O sistema deverá disponibilizar um site institucional único para apresentar as marcas PKZ e One to One.
+RF02 — Diferenciação das marcas
+O sistema deverá apresentar as duas marcas de maneira individualizada, mantendo uma identidade visual coesa.
+RF03 — Cadastro
+O usuário deverá poder realizar seu cadastro através do site.
+RF04 — Criação de acesso
+Após o cadastro, o sistema deverá permitir a criação ou geração de credenciais de acesso à plataforma.
+RF05 — Login
+O sistema deverá possuir autenticação para acesso à área restrita.
+RF06 — Controle de perfil
+O sistema deverá identificar o perfil do usuário e apresentar as informações e funcionalidades correspondentes.
+RF07 — Área do aluno
+O sistema deverá disponibilizar uma área individual para alunos da One to One.
+RF08 — Área do responsável
+O sistema deverá disponibilizar uma área para responsáveis pelos atletas PKZ.
+RF09 — Área do atleta
+O sistema deverá permitir o acesso às informações relacionadas ao atleta.
+RF10 — Avaliações físicas
+O sistema deverá permitir visualizar os resultados das avaliações físicas.
+RF11 — Histórico de evolução
+O sistema deverá apresentar a evolução do aluno/atleta ao longo do tempo.
+RF12 — Relatórios
+O sistema deverá permitir consultar relatórios relacionados aos treinamentos e avaliações.
+RF13 — Treinos
+O sistema deverá apresentar informações relacionadas aos treinamentos realizados e/ou programados.
+RF14 — Indicadores visuais
+O sistema deverá transformar dados de desempenho em gráficos, indicadores e representações visuais de fácil compreensão.
+RF15 — Cronograma
+Para a PKZ, o sistema deverá apresentar informações relacionadas ao cronograma/microciclo de treinamento.
+RF16 — Reavaliações
+O sistema deverá apresentar o histórico de reavaliações do atleta.
+RF17 — Galeria
+O sistema deverá apresentar fotos e vídeos das marcas.
+RF18 — Localização
+O sistema deverá apresentar as unidades e suas respectivas localizações em mapa.
+RF19 — Contato
+O sistema deverá permitir acesso rápido aos canais de contato.
+RF20 — WhatsApp
+O sistema deverá disponibilizar acesso rápido ao contato via WhatsApp.
+RF21 — Instagram
+O sistema deverá disponibilizar acesso aos perfis das marcas no Instagram.
+RF22 — Aplicativo
+O site deverá disponibilizar link para download/acesso ao aplicativo utilizado pela operação.
 
 ---
 

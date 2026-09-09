@@ -151,8 +151,6 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 
 ## 4. Visão Geral do Produto
 
-**Responsável:** Lucas Cunha
-
 ### 4.1 Estrutura Geral
 
 A solução será dividida em duas grandes áreas:

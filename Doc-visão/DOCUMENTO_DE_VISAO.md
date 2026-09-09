@@ -116,6 +116,165 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 
 **Responsável:** Lucas Cunha
 
+### 4.1 Estrutura Geral
+
+A solução será dividida em duas grandes áreas:
+
+#### Área Pública
+
+Responsável pela apresentação institucional das marcas.
+
+Deverá conter:
+
+- Home;
+- Apresentação da PKZ;
+- Apresentação da One to One;
+- Metodologia;
+- Unidades;
+- Galeria;
+- Planos de atendimento;
+- Cadastro;
+- Contato;
+- WhatsApp;
+- Link para download ou acesso ao aplicativo.
+
+#### Área Logada
+
+Responsável pelo relacionamento e acompanhamento dos usuários.
+
+A plataforma deverá adaptar sua experiência conforme o perfil:
+
+- Responsável PKZ;
+- Atleta/aluno;
+- Usuário One to One;
+- Gestor/profissional.
+
+### 4.2 PKZ — Playmakers
+
+A PKZ é um centro de treinamento voltado principalmente para atletas crianças e adolescentes. Sua metodologia envolve um processo contínuo de avaliação e desenvolvimento.
+
+#### Metodologia
+
+O processo deverá ser apresentado de maneira visual e compreensível:
+
+> **Avaliação inicial → Planejamento → Treinamento → Relatório → Reavaliação → Evolução**
+
+A avaliação inicial possui aproximadamente 16 testes físicos, incluindo aspectos como:
+
+- Salto;
+- Velocidade;
+- Agilidade;
+- Tempo de reação;
+- Força;
+- Outros indicadores físicos relevantes.
+
+Após a avaliação, é desenvolvido um cronograma ou microciclo mensal. Durante o processo, são registrados relatórios dos treinos e, posteriormente, realizadas reavaliações para medir a evolução.
+
+#### Diferencial da Plataforma
+
+A plataforma deverá transformar esses dados em uma experiência visual.
+
+Em vez de simplesmente apresentar:
+
+- Velocidade: 12,4 segundos;
+- Salto: 42 cm;
+- Força: 85 kg.
+
+O sistema deverá priorizar elementos como:
+
+- Gráficos;
+- Evolução percentual;
+- Indicadores;
+- Comparações;
+- Histórico;
+- Tendências;
+- Destaques positivos;
+- Evolução mensal.
+
+### 4.3 One to One
+
+A One to One é um estúdio de personal training voltado para:
+
+- Adultos;
+- Atletas;
+- Não atletas;
+- Diferentes idades;
+- Diferentes objetivos.
+
+A experiência deverá ser mais individualizada e direcionada diretamente ao aluno.
+
+Entre os principais objetivos estão:
+
+- Apresentar o conceito do treinamento individualizado;
+- Demonstrar a estrutura;
+- Apresentar os profissionais;
+- Mostrar resultados e treinos;
+- Facilitar o contato;
+- Permitir o acompanhamento do aluno.
+
+### 4.4 Unidades
+
+A plataforma deverá apresentar as unidades de atendimento:
+
+- Sede principal;
+- Vogue Square — unidade em abertura;
+- Oasis — unidade/campo voltada também para alunos de intercâmbio e High School.
+
+A localização deverá ser apresentada de maneira visual e intuitiva, incluindo mapa e informações relevantes sobre cada unidade.
+
+### 4.5 Galeria
+
+O sistema deverá possuir uma área dedicada ao conteúdo visual das marcas.
+
+#### PKZ
+
+- Fotos dos treinamentos;
+- Vídeos dos treinamentos;
+- Conteúdos relacionados aos atletas.
+
+#### One to One
+
+- Fotos dos treinamentos;
+- Vídeos dos treinamentos;
+- Conteúdos relacionados aos alunos.
+
+A galeria deverá contribuir para transmitir a identidade, a qualidade e o profissionalismo das marcas.
+
+### 4.6 Contato
+
+O contato deverá ser simples e de fácil acesso.
+
+Principais canais:
+
+- WhatsApp;
+- Instagram;
+- Informações de contato;
+- Localização das unidades.
+
+A comunicação deverá respeitar os diferentes públicos:
+
+- **PKZ:** linguagem direcionada principalmente aos responsáveis;
+- **One to One:** linguagem mais direta, voltada ao próprio aluno.
+
+### 4.7 Planos de Atendimento
+
+A plataforma deverá apresentar os principais modelos de atendimento.
+
+#### PKZ
+
+- Avaliação física completa;
+- Acompanhamento mensal;
+- Relatórios de evolução;
+- Treinamento direcionado ao desenvolvimento esportivo.
+
+#### One to One
+
+- Personal training individual;
+- Atendimento personalizado;
+- Diferentes objetivos;
+- Atendimento para diferentes idades e perfis.
+
+Os valores não precisam necessariamente ser expostos publicamente, podendo ser direcionados para contato comercial.
 ---
 
 # 5. Requisitos de Alto Nível

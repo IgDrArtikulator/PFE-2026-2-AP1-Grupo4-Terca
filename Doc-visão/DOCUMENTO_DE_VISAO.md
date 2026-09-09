@@ -74,7 +74,7 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 
 ### Pais e Responsáveis (Público decisor da PKZ)
 **Expectativas:**
-1. Sentir total segurança e confiança na estrutura física, na qualificação da equipe técnica e na metodologia aplicada ao desenvolvimento dos seus filhos.
+1. Sentir segurança e confiança na estrutura física, na qualificação da equipe técnica e na metodologia aplicada ao desenvolvimento dos seus filhos.
 2. Compreender os diferenciais da PKZ em relação às escolinhas esportivas tradicionais, enxergando o alto valor de um acompanhamento pautado em dados, saúde e disciplina.
 
 **Necessidades:**
@@ -84,21 +84,21 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 
 ### Atletas e Alunos (Público final e decisor da One to One)
 **Expectativas:**
-1. Encontrar um ambiente premium, exclusivo e focado em resultados, que garanta um acompanhamento alinhado aos seus objetivos pessoais (seja alta performance esportiva, estética ou qualidade de vida).
-2. Transmitir que o serviço oferecerá um atendimento verdadeiramente hiperpersonalizado, justificando o valor investido.
+1. Encontrar um ambiente focado em resultados, que garanta um acompanhamento alinhado aos seus objetivos pessoais (seja alta performance esportiva, estética ou qualidade de vida).
+2. Transmitir que o serviço oferecerá um atendimento hiperpersonalizado, justificando o valor investido.
 
 **Necessidades:**
-1. Visualização imersiva no site, com fotos e vídeos de alta qualidade mostrando o espaço físico moderno, os equipamentos de ponta e o clima dos treinamentos.
+1. Visualização imersiva no site, com fotos e vídeos mostrando o espaço físico moderno, os equipamentos de ponta e o clima dos treinamentos.
 2. Detalhamento claro de como funciona o "personal training" da One to One e o ciclo de acompanhamento nutricional, de treinamento...
 3. Botões de ação rápidos e estratégicos (Call to Action) espalhados pela página para iniciar um atendimento comercial.
 
 ### Crianças e Adolescentes (Público final da PKZ)
 **Expectativas:**
-1. Sentir que a academia é um lugar moderno, dinâmico, o qual pertencem, fugindo da ideia de uma obrigação desinteressante.
-2. Desejar fazer parte do "time" ao ver outros jovens treinando em um ambiente descontraído que pode trazer novas oportunidades de jogar no time dos sonhos ou desenvolver um esporte divertido.
+1. Sentir que a academia é um lugar que eles pertencem, fugindo da ideia de uma obrigação desinteressante.
+2. Desejar fazer parte do time PKZ ao ver outros jovens treinando em um ambiente descontraído que pode trazer novas oportunidades de jogar no time dos sonhos ou desenvolver um esporte divertido.
 
 **Necessidades:**
-1. Consumir uma galeria de fotos e vídeos vibrantes e dinâmicos na página, que destaquem a "vibe" dos treinos e a interação com os professores, para que o próprio jovem peça aos pais para treinar na PKZ.
+1. Galeria de fotos e vídeos, que destaquem a "vibe" dos treinos e a interação com os professores, para que o próprio jovem peça aos pais para treinar na PKZ.
 
 ### Gestores e Equipe Comercial
 **Expectativas:**
@@ -106,7 +106,7 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 2. Receber contatos mais qualificados, que já entendem a diferença de propósito entre a PKZ e a One to One.
 
 **Necessidades:**
-1. Uma página com arquitetura de informação inteligente, que separe claramente os dois mundos (PKZ e One to One) logo na página inicial.
+1. Uma página com arquitetura de informação inteligente, que separe os dois mundos (PKZ e One to One).
 2. Posicionamento estratégico de links que direcionem o cliente rapidamente para o WhatsApp da equipe comercial.
 
 

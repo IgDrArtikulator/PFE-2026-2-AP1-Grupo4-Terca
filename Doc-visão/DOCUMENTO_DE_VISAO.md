@@ -1,3 +1,4 @@
+
 # Documento de Visão
 
 ## 1. Introdução
@@ -153,4 +154,38 @@ Considera-se que:
 
 ## 7. Riscos e Dependências
 
-**Responsável:** Ig
+### 7.1 Riscos
+
+- Baixa adesão dos usuários:
+    Pais ou alunos que já são clientes da PKZ ou One to One podem apresentar resiliência à nova plataforma 
+- Mitigação I:
+     desenvolver uma interface simples visualmente e intuitiva.
+- Mitigação II:
+     Estabelecer processo de cadastro.
+- Mitigação III:
+     Apelo ao visual com uso de gráfico e indicadores ao invés de tabelas extensas. 
+- Excesso de complexidade:
+     A quantidade de informações aguçada pode tornar a plataforma complexa. 
+- Dados inconsistentes: 
+    Informações atualmente armazenadas em diferentes ferramentes podem apresentar inconsistências que podem levar ao conflito de dados. 
+- Dependência de processos manuais/Mitigação IV:
+    Parte da operação ainda depende de processos manuais. Deve-se identificar processos que possam gradualmente ser automatizados. 
+- Perda de personalização: 
+    O excesso de automatização podem reduzir o contato humano entre a equipe e o aluno ou parente.
+- Proteção de dados/Mitigação V: 
+    A plataforma lidará com informações pessoais e dados relacionados ao desempenho e saúde de atletas. O aplicativo deverá implementar controles de acesso, autenticação e também deverá seguir boas práticas de proteção de dados, visando adequação à LGPD.
+
+### 7.2 Dependências 
+
+O desenvolvimento dependerá de:
+•⁠  ⁠Identidade visual das marcas;
+•⁠  ⁠Fotos e vídeos;
+•⁠  ⁠Informações das unidades;
+•⁠  ⁠Dados dos alunos;
+•⁠  ⁠Dados das avaliações;
+•⁠  ⁠Informações sobre treinamentos;
+•⁠  ⁠Definição dos perfis de acesso;
+•⁠  ⁠Regras de negócio;
+•⁠  ⁠Infraestrutura tecnológica;
+•⁠  ⁠Sistema atualmente utilizado;
+•⁠  ⁠Definição das integrações futuras.

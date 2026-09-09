@@ -178,14 +178,14 @@ Considera-se que:
 ### 7.2 Dependências 
 
 O desenvolvimento dependerá de:
-•⁠  ⁠Identidade visual das marcas;
-•⁠  ⁠Fotos e vídeos;
-•⁠  ⁠Informações das unidades;
-•⁠  ⁠Dados dos alunos;
-•⁠  ⁠Dados das avaliações;
-•⁠  ⁠Informações sobre treinamentos;
-•⁠  ⁠Definição dos perfis de acesso;
-•⁠  ⁠Regras de negócio;
-•⁠  ⁠Infraestrutura tecnológica;
-•⁠  ⁠Sistema atualmente utilizado;
-•⁠  ⁠Definição das integrações futuras.
+-  ⁠Identidade visual das marcas;
+- ⁠Fotos e vídeos;
+- ⁠Informações das unidades;
+- ⁠Dados dos alunos;
+- ⁠Dados das avaliações;
+- ⁠Informações sobre treinamentos;
+- ⁠Definição dos perfis de acesso;
+- ⁠Regras de negócio;
+- ⁠Infraestrutura tecnológica;
+- ⁠Sistema atualmente utilizado;
+- Definição das integrações futuras.

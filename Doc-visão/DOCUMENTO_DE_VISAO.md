@@ -44,8 +44,20 @@ O desenvolvimento terá como prioridade o front-end web para computadores, mas t
 
 ## 2. Posicionamento
 
-**Responsável:** Rodrigo
+### 2.1 Oportunidade
 
+A PKZ e a One to One já possuem uma operação estabelecida...
+
+### 2.2 Problema a ser resolvido
+
+Os principais problemas identificados são:
+
+- Ausência de um site institucional próprio;
+...
+
+### 2.3 Proposta de solução
+
+Desenvolver uma plataforma digital centralizada...
 ---
 
 ## 3. Stakeholders e Usuários

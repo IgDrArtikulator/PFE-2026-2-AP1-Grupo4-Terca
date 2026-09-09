@@ -42,22 +42,47 @@ O desenvolvimento terá como prioridade o front-end web para computadores, mas t
 
 ---
 
-## 2. Posicionamento
+# 2. Posicionamento
 
-### 2.1 Oportunidade
+## 2.1 Oportunidade
 
-A PKZ e a One to One já possuem uma operação estabelecida...
+A PKZ e a One to One já possuem uma operação estabelecida e uma base relevante de alunos, porém sua experiência digital atual não representa adequadamente o nível de qualidade e profissionalismo oferecido presencialmente.
 
-### 2.2 Problema a ser resolvido
+Atualmente, a operação utiliza uma solução desenvolvida internamente, além de ferramentas como Drive, Excel e ChatGPT. Embora o sistema atual resolva algumas necessidades operacionais, principalmente relacionadas ao agendamento, ele apresenta limitações de usabilidade, organização e apresentação visual.
+
+Existe, portanto, uma oportunidade de transformar a plataforma digital em uma extensão da experiência premium oferecida pelas marcas.
+
+## 2.2 Problema a ser resolvido
 
 Os principais problemas identificados são:
 
 - Ausência de um site institucional próprio;
-...
+- Sistema atual com apresentação visual pouco profissional;
+- Navegação considerada confusa;
+- Excesso de etapas para acessar testes e relatórios;
+- Informações numéricas difíceis de interpretar por pais e responsáveis;
+- Baixa familiaridade tecnológica de parte dos gestores;
+- Comunicação insuficiente entre a equipe e os responsáveis dos atletas;
+- Processos ainda dependentes de ferramentas descentralizadas;
+- Necessidade de melhorar a percepção de valor das marcas no ambiente digital.
 
-### 2.3 Proposta de solução
+Além disso, existe o desafio de automatizar processos sem tornar o relacionamento com o aluno impessoal.
 
-Desenvolver uma plataforma digital centralizada...
+## 2.3 Proposta de solução
+
+Desenvolver uma plataforma digital centralizada que una experiência institucional, relacionamento, acompanhamento de desempenho e gestão, proporcionando:
+
+- Interface moderna e visualmente sofisticada;
+- Navegação simples e intuitiva;
+- Informações apresentadas de forma visual;
+- Acesso personalizado por perfil;
+- Centralização das informações dos alunos;
+- Melhor comunicação entre alunos, responsáveis, professores e gestão;
+- Visualização da evolução física e esportiva;
+- Redução da fricção nos processos internos;
+- Fortalecimento da percepção de marca.
+
+A tecnologia deverá automatizar e facilitar processos sem substituir o contato humano entre equipe e aluno.
 ---
 
 ## 3. Stakeholders e Usuários

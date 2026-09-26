@@ -5,46 +5,62 @@
 
 ### 1.1 Objetivo do documento
 
-Este Documento de Visão tem como objetivo definir a visão geral, o posicionamento, os principais requisitos e as diretrizes para o desenvolvimento da nova plataforma digital das marcas PKZ (Playmakers) e One to One.
+Este Documento de Visão tem como objetivo definir a visão geral, o posicionamento, os principais requisitos e as diretrizes para o desenvolvimento da nova plataforma digital das marcas PKZ (Play Makerz) e One to One.
 
-A solução deverá modernizar a presença digital das marcas, melhorar a experiência dos alunos, responsáveis e gestores e centralizar, em uma única plataforma com informações relacionadas a cadastro, Localização, história das empresas, entre outras ferramentas que auxiliam a experiência dos usuários. 
+A solução deverá modernizar a presença digital das marcas, melhorar a experiência dos alunos, responsáveis e gestores e centralizar, em uma única plataforma, informações sobre cadastro, localização e história das empresas, entre outras ferramentas que auxiliam a experiência dos usuários.
 
-O projeto terá como foco inicial o desenvolvimento de uma experiência web desktop-first, composta por um site institucional público e uma plataforma logada, com áreas e funcionalidades específicas de acordo com o perfil do usuário.
+O projeto terá como foco inicial o desenvolvimento de uma experiência web desktop-first para o site institucional público. Em uma fase seguinte, será desenvolvida a plataforma logada, com áreas e funcionalidades específicas de acordo com o perfil do usuário.
 
 ### 1.2 Público-alvo
 
 A plataforma atenderá principalmente três grupos:
 
-- **Alunos One to One**: adultos, atletas e não atletas, de diferentes idades e objetivos.
-- **Atletas PKZ**: principalmente crianças e adolescentes em formação esportiva.
-- **Responsáveis pelos atletas PKZ**: pais ou responsáveis que acompanham a evolução, avaliações e informações dos atletas.
+- **Alunos One to One**: adultos, atletas e não atletas, com diferentes objetivos.
+- **Atletas PKZ**: crianças e adolescentes, até 17 anos, em formação esportiva.
+- **Responsáveis pelos atletas PKZ**: pais ou responsáveis que acompanham a evolução, as avaliações e as informações dos atletas.
 
 Também serão considerados usuários internos, como gestores, professores e profissionais responsáveis pelo acompanhamento dos alunos.
 
 ### 1.3 Escopo do sistema
 
-O projeto contempla inicialmente:
+O projeto está dividido em duas fases.
 
-- Site institucional das marcas PKZ e One to One
-- Uma landing page para cada uma das empresas
-- Cadastro de alunos
-- Autenticação e acesso à plataforma
-- Sobre nós
-- Localização
-- Informações sobre treinos
-- Galeria de fotos e vídeos
-- Informações sobre unidades
-- Contato com as marcas
-- Apresentação dos planos de atendimento
-- Interface diferenciada de acordo com o perfil do usuário
+**Fase atual: site institucional público** (é o que o protótipo apresenta):
 
-O desenvolvimento terá como prioridade o front-end web para computadores, mas também com funcionalidade para mobile.
+- Página inicial (Hub), comum às duas marcas, em que o visitante escolhe entre a PKZ e a One to One
+- Uma landing page para cada uma das marcas, com:
+  - Sobre nós
+  - Informações sobre treinos
+  - Planos de atendimento
+  - Unidades e localização
+  - Galeria de fotos e vídeos
+  - Contato com as marcas
+  - Agendamento de aula experimental
+  - Cadastro de alunos e acesso ao login
+
+**Fase seguinte:**
+
+- Plataforma logada: autenticação, áreas por perfil de usuário e acompanhamento de avaliações, treinos e relatórios (RF04 a RF16);
+- Link para download ou acesso ao aplicativo (RF22);
+- Página de comparação entre os dois programas (o link "Comparar os dois programas" já aparece no Sobre nós);
+- Depoimentos de pais e alunos (seções 3.1 e 3.2);
+- Unidades Vogue Square e Oasis (seção 4.4).
+
+O desenvolvimento terá como prioridade o front-end web para computadores (desktop-first), com uma versão mobile do site para celulares. Um aplicativo nativo não faz parte deste escopo.
+
+### 1.4 Termos usados neste documento
+
+- **Hub:** página inicial comum às duas marcas.
+- **Landing page:** site de cada marca (PKZ ou One to One).
+- **Aula experimental:** primeira sessão, gratuita. No site, também aparece como "aula grátis" e "avaliação": os três termos se referem à mesma sessão, que serve de ponto de partida do treino.
+- **Cadastro:** registro do aluno ou atleta pelo site. Não é obrigatório para agendar a aula experimental.
+- **Fase seguinte:** o que não faz parte do protótipo atual e será desenvolvido depois (seção 1.3).
 
 ---
 
-# 2. Posicionamento
+## 2. Posicionamento
 
-## 2.1 Oportunidade
+### 2.1 Oportunidade
 
 A PKZ e a One to One já possuem uma operação estabelecida e uma base relevante de alunos, porém sua experiência digital atual não representa adequadamente o nível de qualidade e profissionalismo oferecido presencialmente.
 
@@ -52,7 +68,7 @@ Atualmente, a operação utiliza uma solução desenvolvida internamente, além 
 
 Existe, portanto, uma oportunidade de transformar a plataforma digital em uma extensão da experiência premium oferecida pelas marcas.
 
-## 2.2 Problema a ser resolvido
+### 2.2 Problema a ser resolvido
 
 Os principais problemas identificados são:
 
@@ -68,7 +84,7 @@ Os principais problemas identificados são:
 
 Além disso, existe o desafio de automatizar processos sem tornar o relacionamento com o aluno impessoal.
 
-## 2.3 Proposta de solução
+### 2.3 Proposta de solução
 
 Desenvolver uma plataforma digital centralizada que una experiência institucional, relacionamento, acompanhamento de desempenho e gestão, proporcionando:
 
@@ -83,61 +99,72 @@ Desenvolver uma plataforma digital centralizada que una experiência institucion
 - Fortalecimento da percepção de marca.
 
 A tecnologia deverá automatizar e facilitar processos sem substituir o contato humano entre equipe e aluno.
+
 ---
 
 ## 3. Stakeholders e Usuários
 
-3.1. Conhecendo os Stakeholders
+### 3.1 Conhecendo os Stakeholders
 
-### - Pais e Responsáveis (Público decisor da PKZ Lab)
-Como a PKZ é voltada para o público infantil e jovem, os pais e responsáveis se tratam dos tomadores de decisões para a contratação do serviço prestado pela PKZ Lab. Eles buscam muito mais do que apenas uma atividade física para os filhos; procuram um ambiente seguro, acolhedor e focado no desenvolvimento esportivo e motor. A plataforma deve atuar transmitindo confiança, entregando transparência sobre os métodos, segurança do local e provando, através de resultados e depoimentos, que o investimento no futuro e na saúde de suas crianças e adolescentes é a escolha certa.
+#### Pais e Responsáveis (Público decisor da PKZ)
 
-### - Atletas e Alunos (Público final e decisor da One to One)
-Focada no público desde jovem, até adultos, a One to One procura oferecer serviço personalizado e de alta performace para os próprios compradores, sejam eles buscando alto rendimento ou focar em saúde, estética e qualidade de vida. Eles chegam à página procurando um ambiente premium, hiperpersonalização de treinos e resultados garantidos. Para esse grupo, o site deve funcionar como um ímã, utilizando recursos visuais de alta qualidade e uma comunicação direta que desperte o desejo imediato de treinar no estúdio e agendar uma avaliação física e nutricional oferecida.
+Como a PKZ é voltada para o público infantil e jovem, os pais e responsáveis são os tomadores de decisão na contratação do serviço prestado pela PKZ. Eles buscam muito mais do que apenas uma atividade física para os filhos; procuram um ambiente seguro, acolhedor e focado no desenvolvimento esportivo e motor. A plataforma deve transmitir confiança, com transparência sobre os métodos e a segurança do local, e provar, por meio de resultados e depoimentos, que o investimento no futuro e na saúde de suas crianças e adolescentes é a escolha certa.
 
-### - Crianças e Adolescentes (Público final da PKZ Lab)
-Embora não sejam os compradores diretos do plano, eles são os usuários finais a serem atendidos e pensando na PKZ. A página e os materiais visuais também devem transmitir a vontade de pertencer em um ambiente esportivo e divertido. Pois, se a criança ou jovem houver interesse na proposta de fácil entendimento que for ilustrada no website, o processo de conversão e convencimento dos pais se torna muito mais fluido.
+#### Atletas e Alunos (Público final e decisor da One to One)
 
-### - Proprietários e Gestores (PKZ Lab e One to One)
-Para a direção das duas marcas, a plataforma é o principal página de captação de clientes e maior presença digital para mostrar a essência PKZ e One to One. O grande interesse é garantir que a página deixe muito clara a diferença de propósito entre a PKZ e a One to One, e aumentar o volume de leads.
+Focada no público adulto, a One to One oferece um serviço personalizado e de alta performance para os próprios compradores, sejam eles em busca de alto rendimento ou de saúde, estética e qualidade de vida. Eles chegam à página procurando um ambiente premium, hiperpersonalização de treinos e resultados garantidos. Para esse grupo, o site deve funcionar como um ímã, utilizando recursos visuais de alta qualidade e uma comunicação direta que desperte o desejo imediato de treinar no estúdio e agendar a avaliação física e nutricional oferecida.
 
-### - Professores e Profissionais de Treinamento
- Os professores de educação física se tratam da imagem central a oferecer confiança, autoridade e alta performace. A especialização de cada um precisa ser evidenciada: tanto a didática e o cuidado no trato com as crianças e jovens da PKZ, quanto a excelência técnica e o foco em resultados para os jovens e adultos da One to One.
+#### Crianças e Adolescentes (Público final da PKZ)
 
-### - Alunos da Área Tech do Ibmec
-Este grupo é formado pelos estudantes dos cursos de graduação da área tech do Ibmec que são responsáveis por dar vida ao website. Para eles, o projeto vai muito além de um trabalho acadêmico, o qual fará parte de seus portfólios profissionais. Utilizando metodologias ágeis, o foco dessa equipe é garantir a felicidade do cliente, entregando uma solução que gere valor.
+Embora não sejam os compradores diretos do plano, eles são os usuários finais atendidos pela PKZ. A página e os materiais visuais também devem despertar a vontade de pertencer a um ambiente esportivo e divertido, pois, se a criança ou o jovem se interessar pela proposta apresentada de forma fácil de entender no site, o processo de conversão e convencimento dos pais se torna muito mais fluido.
 
-## 3.2. Usuários
+#### Proprietários e Gestores (PKZ e One to One)
 
-### Pais e Responsáveis (Público decisor da PKZ)
+Para a direção das duas marcas, a plataforma é a principal página de captação de clientes e a maior presença digital para mostrar a essência da PKZ e da One to One. O grande interesse é garantir que a página deixe muito clara a diferença de propósito entre a PKZ e a One to One e aumentar o volume de leads.
+
+#### Professores e Profissionais de Treinamento
+
+Os professores de educação física são a imagem central para transmitir confiança, autoridade e alta performance. A especialização de cada um precisa ser evidenciada: tanto a didática e o cuidado no trato com as crianças e jovens da PKZ quanto a excelência técnica e o foco em resultados para os adultos da One to One.
+
+#### Alunos da Área Tech do Ibmec
+
+Este grupo é formado pelos estudantes dos cursos de graduação da área tech do Ibmec, responsáveis por dar vida ao website. Para eles, o projeto vai muito além de um trabalho acadêmico, pois fará parte de seus portfólios profissionais. Utilizando metodologias ágeis, o foco dessa equipe é garantir a felicidade do cliente, entregando uma solução que gere valor.
+
+### 3.2 Usuários
+
+#### Pais e Responsáveis (Público decisor da PKZ)
+
 **Expectativas:**
 1. Sentir segurança e confiança na estrutura física, na qualificação da equipe técnica e na metodologia aplicada ao desenvolvimento dos seus filhos.
 2. Compreender os diferenciais da PKZ em relação às escolinhas esportivas tradicionais, enxergando o alto valor de um acompanhamento pautado em dados, saúde e disciplina.
 
 **Necessidades:**
-1. Acesso a uma página com explicações visuais, claras e didáticas sobre como funciona o método de avaliação física inicial e o acompanhamento contínuo.
+1. Acesso a uma página com explicações visuais, claras e didáticas sobre como funcionam o método de avaliação física inicial e o acompanhamento contínuo.
 2. Apresentação de depoimentos em vídeo ou texto de outros pais, transmitindo credibilidade.
-3. Canais de comunicação diretos e acolhedores (como um botão flutuante de WhatsApp) para sanar dúvidas relacionadas à segurança, horários e agendar visitas facilmente.
+3. Canais de comunicação diretos e acolhedores (como o WhatsApp) para tirar dúvidas sobre segurança e horários e para agendar visitas facilmente.
 
-### Atletas e Alunos (Público final e decisor da One to One)
+#### Atletas e Alunos (Público final e decisor da One to One)
+
 **Expectativas:**
 1. Encontrar um ambiente focado em resultados, que garanta um acompanhamento alinhado aos seus objetivos pessoais (seja alta performance esportiva, estética ou qualidade de vida).
-2. Transmitir que o serviço oferecerá um atendimento hiperpersonalizado, justificando o valor investido.
+2. Perceber que o serviço oferece um atendimento hiperpersonalizado, que justifica o valor investido.
 
 **Necessidades:**
 1. Visualização imersiva no site, com fotos e vídeos mostrando o espaço físico moderno, os equipamentos de ponta e o clima dos treinamentos.
-2. Detalhamento claro de como funciona o "personal training" da One to One e o ciclo de acompanhamento nutricional, de treinamento...
+2. Detalhamento claro de como funcionam o personal training da One to One e o ciclo de acompanhamento de treinamento e nutricional.
 3. Botões de ação rápidos e estratégicos (Call to Action) espalhados pela página para iniciar um atendimento comercial.
 
-### Crianças e Adolescentes (Público final da PKZ)
+#### Crianças e Adolescentes (Público final da PKZ)
+
 **Expectativas:**
-1. Sentir que a academia é um lugar que eles pertencem, fugindo da ideia de uma obrigação desinteressante.
-2. Desejar fazer parte do time PKZ ao ver outros jovens treinando em um ambiente descontraído que pode trazer novas oportunidades de jogar no time dos sonhos ou desenvolver um esporte divertido.
+1. Sentir que a PKZ é um lugar ao qual pertencem, e não uma obrigação desinteressante.
+2. Desejar fazer parte do time PKZ ao ver outros jovens treinando em um ambiente descontraído, que pode trazer novas oportunidades de jogar no time dos sonhos ou de praticar um esporte divertido.
 
 **Necessidades:**
-1. Galeria de fotos e vídeos, que destaquem a "vibe" dos treinos e a interação com os professores, para que o próprio jovem peça aos pais para treinar na PKZ.
+1. Galeria de fotos e vídeos que destaquem a "vibe" dos treinos e a interação com os professores, para que o próprio jovem peça aos pais para treinar na PKZ.
 
-### Gestores e Equipe Comercial
+#### Gestores e Equipe Comercial
+
 **Expectativas:**
 1. Utilizar a plataforma digital como um funil de vendas eficiente, que trabalhe para educar o visitante e gerar desejo antes mesmo do primeiro contato direto.
 2. Receber contatos mais qualificados, que já entendem a diferença de propósito entre a PKZ e a One to One.
@@ -145,7 +172,6 @@ Este grupo é formado pelos estudantes dos cursos de graduação da área tech d
 **Necessidades:**
 1. Uma página com arquitetura de informação inteligente, que separe os dois mundos (PKZ e One to One).
 2. Posicionamento estratégico de links que direcionem o cliente rapidamente para o WhatsApp da equipe comercial.
-
 
 ---
 
@@ -161,32 +187,36 @@ Responsável pela apresentação institucional das marcas.
 
 Deverá conter:
 
-- Home;
-- Apresentação da PKZ;
-- Apresentação da One to One;
-- Metodologia;
+- Hub: página inicial comum às duas marcas, com a escolha entre a PKZ (até 17 anos) e a One to One (adultos) e vídeos dos treinos;
+- Landing page da PKZ;
+- Landing page da One to One.
+
+Cada landing page deverá conter:
+
+- Início;
+- Sobre nós, com o link "Comparar os dois programas";
+- Treinos e metodologia;
+- Planos de atendimento;
 - Unidades;
 - Galeria;
-- Planos de atendimento;
-- Cadastro;
-- Contato;
-- WhatsApp;
-- Link para download ou acesso ao aplicativo.
+- Contato, com WhatsApp e Instagram (na PKZ, também e-mail);
+- Agendamento de aula experimental;
+- Cadastro e login.
 
-#### Área Logada
+#### Área Logada (fase seguinte)
 
-Responsável pelo relacionamento e acompanhamento dos usuários.
+Responsável pelo relacionamento e acompanhamento dos usuários. Será desenvolvida em uma fase seguinte, depois do site público.
 
 A plataforma deverá adaptar sua experiência conforme o perfil:
 
 - Responsável PKZ;
-- Atleta/aluno;
-- Usuário One to One;
+- Atleta PKZ;
+- Aluno One to One;
 - Gestor/profissional.
 
-### 4.2 PKZ — Playmakers
+### 4.2 PKZ — Play Makerz
 
-A PKZ é um centro de treinamento voltado principalmente para atletas crianças e adolescentes. Sua metodologia envolve um processo contínuo de avaliação e desenvolvimento.
+A PKZ é um centro de treinamento voltado para atletas crianças e adolescentes, até 17 anos. Sua metodologia envolve um processo contínuo de avaliação e desenvolvimento.
 
 #### Metodologia
 
@@ -204,6 +234,8 @@ A avaliação inicial possui aproximadamente 16 testes físicos, incluindo aspec
 - Outros indicadores físicos relevantes.
 
 Após a avaliação, é desenvolvido um cronograma ou microciclo mensal. Durante o processo, são registrados relatórios dos treinos e, posteriormente, realizadas reavaliações para medir a evolução.
+
+No site público, essa metodologia aparece de forma resumida na página Treinos, em três etapas: avaliação (ponto de partida), programa por idade e modalidade e acompanhamento. Os gráficos de evolução descritos a seguir fazem parte da plataforma logada (fase seguinte).
 
 #### Diferencial da Plataforma
 
@@ -233,7 +265,6 @@ A One to One é um estúdio de personal training voltado para:
 - Adultos;
 - Atletas;
 - Não atletas;
-- Diferentes idades;
 - Diferentes objetivos.
 
 A experiência deverá ser mais individualizada e direcionada diretamente ao aluno.
@@ -245,15 +276,17 @@ Entre os principais objetivos estão:
 - Apresentar os profissionais;
 - Mostrar resultados e treinos;
 - Facilitar o contato;
-- Permitir o acompanhamento do aluno.
+- Permitir o acompanhamento do aluno, na plataforma logada (fase seguinte).
 
 ### 4.4 Unidades
 
 A plataforma deverá apresentar as unidades de atendimento:
 
-- Sede principal;
+- Sede principal — Av. Armando Lombardi, 949, Loja G, Barra da Tijuca;
 - Vogue Square — unidade em abertura;
 - Oasis — unidade/campo voltada também para alunos de intercâmbio e High School.
+
+Nesta fase, o site apresenta apenas a sede principal. As unidades Vogue Square e Oasis serão incluídas na fase seguinte.
 
 A localização deverá ser apresentada de maneira visual e intuitiva, incluindo mapa e informações relevantes sobre cada unidade.
 
@@ -283,7 +316,7 @@ Principais canais:
 
 - WhatsApp;
 - Instagram;
-- Informações de contato;
+- Informações de contato, como e-mail e horário de atendimento;
 - Localização das unidades.
 
 A comunicação deverá respeitar os diferentes públicos:
@@ -307,20 +340,29 @@ A plataforma deverá apresentar os principais modelos de atendimento.
 - Personal training individual;
 - Atendimento personalizado;
 - Diferentes objetivos;
-- Atendimento para diferentes idades e perfis.
+- Atendimento para diferentes perfis de adultos.
+
+No site, os planos são apresentados em três passos, sem tabela de preços:
+
+1. Aula experimental gratuita, agendada pela página de Agendamento ou pelo WhatsApp;
+2. Pacote montado a partir da avaliação (frequência, duração e objetivo);
+3. Valores passados pela equipe de acordo com o pacote escolhido (na PKZ, pelo WhatsApp).
 
 Os valores não precisam necessariamente ser expostos publicamente, podendo ser direcionados para contato comercial.
+
 ---
 
 ## 5. Requisitos de Alto Nível
 
 ### 5.1 Requisitos funcionais
 
+Os requisitos RF04 a RF16 (plataforma logada) e o RF22 (link do aplicativo) ficam para a fase seguinte. Os demais fazem parte do site público.
+
 | Código | Requisito | Descrição |
 |---|---|---|
-| RF01 | Site institucional | O sistema deverá disponibilizar um site institucional único para apresentar as marcas PKZ e One to One. |
+| RF01 | Site institucional | O sistema deverá disponibilizar um site institucional único para as marcas PKZ e One to One, com uma página inicial (Hub) que direciona o visitante para a landing page de cada marca. |
 | RF02 | Diferenciação das marcas | O sistema deverá apresentar as duas marcas de maneira individualizada, mantendo uma identidade visual coesa. |
-| RF03 | Cadastro | O usuário deverá poder realizar seu cadastro através do site. |
+| RF03 | Cadastro | O usuário deverá poder realizar seu cadastro através do site. Na PKZ, o cadastro é feito pelo responsável (nome do responsável, nome e idade do atleta e WhatsApp); na One to One, pelo próprio aluno (nome completo, e-mail e WhatsApp). O cadastro não é obrigatório para agendar a aula experimental. |
 | RF04 | Criação de acesso | Após o cadastro, o sistema deverá permitir a criação ou geração de credenciais de acesso à plataforma. |
 | RF05 | Login | O sistema deverá possuir autenticação para acesso à área restrita. |
 | RF06 | Controle de perfil | O sistema deverá identificar o perfil do usuário e apresentar as informações e funcionalidades correspondentes. |
@@ -340,15 +382,15 @@ Os valores não precisam necessariamente ser expostos publicamente, podendo ser 
 | RF20 | WhatsApp | O sistema deverá disponibilizar acesso rápido ao contato via WhatsApp. |
 | RF21 | Instagram | O sistema deverá disponibilizar acesso aos perfis das marcas no Instagram. |
 | RF22 | Aplicativo | O site deverá disponibilizar link para download/acesso ao aplicativo utilizado pela operação. |
-| RF23 | Agendamento de aula experimental | Cada landing page deverá disponibilizar uma chamada para ação (CTA) em destaque, específica da sua marca, que permita ao visitante agendar uma aula experimental: a landing page da PKZ apresentará o CTA da PKZ e a landing page da One to One apresentará o CTA da One to One. Ao acionar o CTA, o visitante deverá informar a unidade, a data/horário desejado e seus dados de contato, e receber uma confirmação da solicitação. |
-| RF24 | Disponibilidade de horários | O sistema deverá verificar a disponibilidade do horário escolhido para a aula experimental. Caso o horário já esteja ocupado, o visitante deverá ser avisado e o sistema deverá sugerir outros horários disponíveis, impedindo que o mesmo horário seja agendado duas vezes. |
+| RF23 | Agendamento de aula experimental | Cada landing page deverá disponibilizar uma chamada para ação (CTA) em destaque, específica da sua marca, que permita ao visitante agendar uma aula experimental: a landing page da PKZ apresentará o CTA da PKZ e a landing page da One to One apresentará o CTA da One to One. Ao acionar o CTA, o visitante deverá escolher o dia e o horário, informar nome, e-mail e telefone e receber uma confirmação da solicitação. O agendamento não exige cadastro prévio. |
+| RF24 | Disponibilidade de horários | O sistema deverá mostrar quais horários estão livres e quais estão ocupados, e horários ocupados não poderão ser selecionados. Se o horário escolhido for ocupado por outra pessoa enquanto o visitante preenche os dados, ele deverá ser avisado e poderá escolher outro horário livre, impedindo que o mesmo horário seja agendado duas vezes. |
 
 ### 5.2 Requisitos não funcionais
 
 | Código | Requisito | Descrição |
 |---|---|---|
 | RNF01 | Usabilidade | A interface deverá ser simples e intuitiva, inclusive para usuários com baixa familiaridade tecnológica. |
-| RNF02 | Responsividade | Embora o escopo inicial seja desktop-first, a interface deverá ser estruturada de maneira que possa ser adaptada futuramente para diferentes tamanhos de tela. |
+| RNF02 | Responsividade | O escopo é desktop-first, mas o site também deverá ter uma versão mobile, adaptada para telas de celular. |
 | RNF03 | Performance | As páginas deverão apresentar carregamento rápido e navegação fluida. |
 | RNF04 | Segurança | Dados pessoais e informações de desempenho deverão ser protegidos de acordo com boas práticas de segurança e privacidade. |
 | RNF05 | Privacidade | Informações de atletas, especialmente menores de idade, deverão possuir acesso restrito conforme o perfil autorizado. |
@@ -357,7 +399,8 @@ Os valores não precisam necessariamente ser expostos publicamente, podendo ser 
 | RNF08 | Identidade visual | A interface deverá transmitir uma percepção de qualidade, profissionalismo, tecnologia e alto padrão. |
 | RNF09 | Baixa fricção | As principais funcionalidades deverão ser acessíveis com o menor número possível de cliques. |
 | RNF10 | Visualização de dados | Dados complexos deverão ser apresentados prioritariamente através de gráficos, indicadores e elementos visuais. |
-| RNF11 | Conversão no agendamento | O CTA de aula experimental deverá permanecer visível e facilmente identificável em cada landing page, seguindo a identidade visual da respectiva marca. O fluxo de agendamento deverá ser concluído em poucos passos, solicitando apenas os dados essenciais, com confirmação imediata ao visitante. Os dados coletados deverão ser tratados conforme a LGPD, com consentimento explícito do visitante. 
+| RNF11 | Conversão no agendamento | O CTA de aula experimental deverá permanecer visível e facilmente identificável em cada landing page, seguindo a identidade visual da respectiva marca. O fluxo de agendamento deverá ser concluído em poucos passos, solicitando apenas os dados essenciais, com confirmação imediata ao visitante. Os dados coletados deverão ser tratados conforme a LGPD; a forma de coleta do consentimento do visitante será definida no desenvolvimento. |
+
 ---
 
 ## 6. Restrições e Premissas
@@ -367,8 +410,10 @@ Os valores não precisam necessariamente ser expostos publicamente, podendo ser 
 O projeto possui algumas restrições iniciais:
 
 - O escopo atual é direcionado ao front-end web;
-- A prioridade é a experiência desktop-first;
-- O aplicativo mobile não faz parte do desenvolvimento inicial;
+- A prioridade é a experiência desktop-first, com uma versão mobile do site;
+- A plataforma logada (RF04 a RF16) e o link do aplicativo (RF22) serão desenvolvidos em uma fase seguinte;
+- Um aplicativo nativo para celular não faz parte do desenvolvimento inicial;
+- A One to One possui manual de marca, seguido no protótipo. A PKZ não possui, e sua identidade visual (azul-marinho e dourado) foi definida pelo grupo. Por isso os dois sites têm estilos diferentes, dentro da mesma estrutura de páginas;
 - Integrações avançadas poderão depender de sistemas externos;
 - O WhatsApp será inicialmente utilizado como canal de contato;
 - A integração nativa com WhatsApp poderá ser desenvolvida posteriormente;
@@ -391,36 +436,27 @@ Considera-se que:
 
 ### 7.1 Riscos
 
-- Baixa adesão dos usuários:
-    Pais ou alunos que já são clientes da PKZ ou One to One podem apresentar resiliência à nova plataforma 
-- Mitigação I:
-     desenvolver uma interface simples visualmente e intuitiva.
-- Mitigação II:
-     Estabelecer processo de cadastro.
-- Mitigação III:
-     Apelo ao visual com uso de gráfico e indicadores ao invés de tabelas extensas. 
-- Excesso de complexidade:
-     A quantidade de informações aguçada pode tornar a plataforma complexa. 
-- Dados inconsistentes: 
-    Informações atualmente armazenadas em diferentes ferramentes podem apresentar inconsistências que podem levar ao conflito de dados. 
-- Dependência de processos manuais/Mitigação IV:
-    Parte da operação ainda depende de processos manuais. Deve-se identificar processos que possam gradualmente ser automatizados. 
-- Perda de personalização: 
-    O excesso de automatização podem reduzir o contato humano entre a equipe e o aluno ou parente.
-- Proteção de dados/Mitigação V: 
-    A plataforma lidará com informações pessoais e dados relacionados ao desempenho e saúde de atletas. O aplicativo deverá implementar controles de acesso, autenticação e também deverá seguir boas práticas de proteção de dados, visando adequação à LGPD.
+| Risco | Descrição | Mitigação |
+|---|---|---|
+| Baixa adesão dos usuários | Pais ou alunos que já são clientes da PKZ ou da One to One podem apresentar resistência à nova plataforma. | Desenvolver uma interface visualmente simples e intuitiva; estabelecer um processo de cadastro; usar gráficos e indicadores em vez de tabelas extensas. |
+| Excesso de complexidade | O excesso de informações pode tornar a plataforma complexa. | Priorizar poucos cliques (RNF09) e apresentar os dados de forma visual (RNF10). |
+| Dados inconsistentes | Informações hoje armazenadas em diferentes ferramentas podem apresentar inconsistências e gerar conflito de dados. | Centralizar as informações dos alunos em uma única plataforma (seção 2.3). |
+| Dependência de processos manuais | Parte da operação ainda depende de processos manuais. | Identificar os processos que possam ser automatizados gradualmente. |
+| Perda de personalização | O excesso de automação pode reduzir o contato humano entre a equipe e o aluno ou responsável. | Usar a plataforma como complemento, e não substituição, do relacionamento humano (seção 6.2), mantendo canais diretos como o WhatsApp. |
+| Proteção de dados | A plataforma lidará com informações pessoais e dados relacionados ao desempenho e à saúde de atletas. | Implementar controles de acesso e autenticação e seguir boas práticas de proteção de dados, visando à adequação à LGPD. |
 
-### 7.2 Dependências 
+### 7.2 Dependências
 
 O desenvolvimento dependerá de:
--  ⁠Identidade visual das marcas;
-- ⁠Fotos e vídeos;
-- ⁠Informações das unidades;
-- ⁠Dados dos alunos;
-- ⁠Dados das avaliações;
-- ⁠Informações sobre treinamentos;
-- ⁠Definição dos perfis de acesso;
-- ⁠Regras de negócio;
-- ⁠Infraestrutura tecnológica;
-- ⁠Sistema atualmente utilizado;
+
+- Manual de marca da One to One e identidade visual da PKZ;
+- Fotos e vídeos;
+- Informações das unidades;
+- Dados dos alunos;
+- Dados das avaliações;
+- Informações sobre treinamentos;
+- Definição dos perfis de acesso;
+- Regras de negócio;
+- Infraestrutura tecnológica;
+- Sistema atualmente utilizado;
 - Definição das integrações futuras.

@@ -132,7 +132,7 @@ Os professores de educação física são a imagem central para transmitir confi
 Este grupo é formado pelos estudantes dos cursos de graduação da área tech do Ibmec, responsáveis por dar vida ao website. Para eles, o projeto vai muito além de um trabalho acadêmico, pois fará parte de seus portfólios profissionais. Utilizando metodologias ágeis, o foco dessa equipe é garantir a felicidade do cliente, entregando uma solução que gere valor.
 
 #### Professor Thiago (Product Owner)
-Nosso Professor da Matéria de PFE, como Product owner. Ele é o profissional responsável por maximizar o valor do produto e garantir que ele atenda às necessidades dos clientes e aos objetivos do negócio em equipes ágeis. Assim, ele foi responsável de nos informar das dinâmicas preferências do cliente (PKZ)
+Nosso Professor da Matéria de PFE, como Product owner. Ele é o profissional responsável por maximizar o valor do produto e garantir que ele atenda às necessidades dos clientes e aos objetivos do negócio em equipes ágeis. Assim, ele foi responsável de nos informar das dinâmicas preferências do cliente (PKZ).
 
 ### 3.2 Usuários
 

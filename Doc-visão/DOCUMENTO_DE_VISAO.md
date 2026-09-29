@@ -18,6 +18,7 @@ A plataforma atenderá principalmente três grupos:
 - **Alunos One to One**: adultos, atletas e não atletas, com diferentes objetivos.
 - **Atletas PKZ**: crianças e adolescentes, até 17 anos, em formação esportiva.
 - **Responsáveis pelos atletas PKZ**: pais ou responsáveis que acompanham a evolução, as avaliações e as informações dos atletas.
+- **Possíveis Clientes** 
 
 Também serão considerados usuários internos, como gestores, professores e profissionais responsáveis pelo acompanhamento dos alunos.
 

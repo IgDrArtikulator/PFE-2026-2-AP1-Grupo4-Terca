@@ -19,7 +19,7 @@ Arthur Alves, Caio Abanca, Guilherme Teixeira, Igor Santos (Scrum Master), Lucas
 | [Mindmap](Mindmap/) | Mapa mental da arquitetura de informação |
 | [AHT](AHT/) | Análise Hierárquica de Tarefas |
 | [protótipo-da-interface](protótipo-da-interface/) | Protótipos do Hub, da PKZ e da One to One, em desktop e mobile |
-| [Scrum](Scrum/) | Relatórios das sprints |
+| [Scrum](Scrum/) | Relatórios das sprints e o backlog do produto |
 
 ## Protótipos
 

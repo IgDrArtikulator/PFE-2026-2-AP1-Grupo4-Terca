@@ -464,3 +464,26 @@ O desenvolvimento dependerá de:
 - Infraestrutura tecnológica;
 - Sistema atualmente utilizado;
 - Definição das integrações futuras.
+
+---
+
+## 8. Glossário
+
+| Termo | Definição no contexto do projeto |
+|---|---|
+| **AHT** | Análise Hierárquica de Tarefas. Representação visual que decompõe um objetivo em tarefas e subtarefas executadas pelo usuário. |
+| **Área logada** | Parte restrita da plataforma, acessada mediante autenticação e adaptada ao perfil do usuário. Está prevista para uma fase seguinte. |
+| **Área pública** | Parte do site que pode ser acessada sem autenticação e apresenta as marcas, seus serviços, unidades e canais de contato. |
+| **Aula experimental** | Primeira sessão oferecida ao interessado. Nos protótipos também pode aparecer como “aula grátis” ou “avaliação”, conforme o contexto da marca. |
+| **Backlog** | Lista priorizada de requisitos, tarefas e melhorias que orienta o trabalho da equipe durante as Sprints. |
+| **CTA (Call to Action)** | Elemento visual, normalmente um botão, que convida o visitante a realizar uma ação, como agendar uma aula experimental ou entrar em contato. |
+| **Desktop-first** | Abordagem em que a experiência para computadores é projetada primeiro e depois adaptada para telas menores. É a abordagem inicial deste projeto. |
+| **Hub** | Página inicial comum que apresenta as duas marcas e direciona o visitante para a landing page da PKZ ou da One to One. |
+| **Landing page** | Página dedicada a uma marca e organizada para apresentar sua proposta, seus serviços e suas principais ações de conversão. |
+| **Mobile-first** | Abordagem em que a interface é inicialmente planejada para celulares e depois expandida para telas maiores. Será considerada na futura implementação em React. |
+| **Product Owner** | Papel responsável por representar as necessidades do produto e ajudar a priorizar as entregas. No projeto, essa função é atribuída ao professor Thiago Marcondes. |
+| **Protótipo** | Representação visual da interface usada para demonstrar e validar estrutura, conteúdo, navegação e aparência antes da implementação. |
+| **Responsividade** | Capacidade da interface de se adaptar a diferentes tamanhos de tela, mantendo legibilidade, organização e facilidade de uso. |
+| **Scrum** | Metodologia ágil utilizada pela equipe para organizar o projeto em ciclos curtos, responsabilidades e entregas incrementais. |
+| **Scrum Master** | Papel responsável por facilitar a aplicação do Scrum e apoiar a organização da equipe. No projeto, essa função é exercida por Igor Santos. |
+| **Sprint** | Ciclo de trabalho com objetivo, tarefas e entregas definidos para um determinado período. |

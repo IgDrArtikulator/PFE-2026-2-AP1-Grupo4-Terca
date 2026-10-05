@@ -32,7 +32,7 @@ O projeto está dividido em duas fases.
 - Uma landing page para cada uma das marcas, com:
   - Sobre nós
   - Informações sobre treinos
-  - Planos de atendimento
+  - Planos
   - Unidades e localização
   - Galeria de fotos e vídeos
   - Contato com as marcas
@@ -97,7 +97,8 @@ Desenvolver uma plataforma digital centralizada que una experiência institucion
 - Melhor comunicação entre alunos, responsáveis, professores e gestão;
 - Visualização da evolução física e esportiva;
 - Redução da fricção nos processos internos;
-- Fortalecimento da percepção de marca.
+- Fortalecimento da percepção de marca;
+- Apresentar os planos e trazer uma visão geral, sem citar valores, valorizando o serviço antes da negociação, que acontece após a aula experimental;
 
 A tecnologia deverá automatizar e facilitar processos sem substituir o contato humano entre equipe e aluno.
 
@@ -146,6 +147,7 @@ Nosso Professor da Matéria de PFE, como Product owner. Ele é o profissional re
 1. Acesso a uma página com explicações visuais, claras e didáticas sobre como funcionam o método de avaliação física inicial e o acompanhamento contínuo.
 2. Apresentação de depoimentos em vídeo ou texto de outros pais, transmitindo credibilidade.
 3. Canais de comunicação diretos e acolhedores (como o WhatsApp) para tirar dúvidas sobre segurança e horários e para agendar visitas facilmente.
+4. Entender planos oferecidos e o que cada um inclui.
 
 #### Atletas e Alunos (Público final e decisor da One to One)
 
@@ -155,7 +157,7 @@ Nosso Professor da Matéria de PFE, como Product owner. Ele é o profissional re
 
 **Necessidades:**
 1. Visualização imersiva no site, com fotos e vídeos mostrando o espaço físico moderno, os equipamentos de ponta e o clima dos treinamentos.
-2. Detalhamento claro de como funcionam o personal training da One to One e o ciclo de acompanhamento de treinamento e nutricional.
+2. Apresentar planos oferecidos e o que cada um inclui.
 3. Botões de ação rápidos e estratégicos (Call to Action) espalhados pela página para iniciar um atendimento comercial.
 
 #### Crianças e Adolescentes (Público final da PKZ)
@@ -200,7 +202,7 @@ Cada landing page deverá conter:
 - Início;
 - Sobre nós, com o link "Comparar os dois programas";
 - Treinos e metodologia;
-- Planos de atendimento;
+- Planos;
 - Unidades;
 - Galeria;
 - Contato, com WhatsApp e Instagram (na PKZ, também e-mail);
@@ -337,22 +339,52 @@ A plataforma deverá apresentar os principais modelos de atendimento.
 - Avaliação física completa;
 - Acompanhamento mensal;
 - Relatórios de evolução;
-- Treinamento direcionado ao desenvolvimento esportivo.
+- Treinamento direcionado ao desenvolvimento esportivo e garantia da segurança do atleta.
+
+**Planos PKZ:**
+
+- **Plano Performance (Para quem busca evolução acelerada):** Mais frequência de treinos e acompanhamento próximo para potencializar resultados. Ideal para atletas que querem dar um passo além da performance.
+  - 2 treinos por semana
+  - Nutrição e Psicologia com acompanhamento contínuo
+  - Fisioterapia com foco em recovery e prevenção
+  - Avaliação completa
+- **Plano Desenvolvimento (Para construir uma base sólida):** Equilíbrio entre treino, saúde e desenvolvimento progressivo. Perfeito para quem está em fase de construção e evolução constante.
+  - 1 treino por semana
+  - Nutrição e psicologia com acompanhamento contínuo
+  - Fisioterapia com foco em recovery e prevenção
+  - Avaliação completa
+- **Flexibilidade (Um plano que se adapta ao atleta):** Os serviços do PKZ também podem ser contratados de forma individual, de acordo com a necessidade de cada atleta. Mais autonomia, sem abrir mão do suporte profissional.
 
 #### One to One
 
-- Personal training individual;
-- Atendimento personalizado;
-- Diferentes objetivos;
-- Atendimento para diferentes perfis de adultos.
+- Treino Personalizado de verdade para seu objetivo
+- Equipamentos novos e planejados para seu melhor desenvolvimento
+- Espaço planejado e recebendo pessoas
+- Personal trainer dedicado a você te acompanhando em todo processo
+- Nutrição prática e eficiente com profissional Nutricionista
+- Sessão de Fisioterapia com tecnologia de ponta
 
-No site, os planos são apresentados em três passos, sem tabela de preços:
+**Planos Oferecidos:**
 
-1. Aula experimental gratuita, agendada pela página de Agendamento ou pelo WhatsApp;
-2. Pacote montado a partir da avaliação (frequência, duração e objetivo);
-3. Valores passados pela equipe de acordo com o pacote escolhido (na PKZ, pelo WhatsApp).
+- **Plano Express (Para quem tem pouco tempo, mas não abre mão de se cuidar):** 
+  - Treinos de 30 min até 5 vezes por semana
+  - Fisio: Avaliação Inclusa
+  - Nutri: Avaliação Inclusa
+- **Plano One Move (Constância é chave!):** 
+  - Treinos de 60 minutos 3 vezes na semana
+  - Fisio: Avaliação Inclusa
+  - Nutri: Avaliação Inclusa
+- **Plano One Power (O ideal para quem busca evolução mais próxima):** 
+  - Treinos de 60 minutos 6 vezes na semana
+  - Fisio: Avaliação Inclusa
+  - Nutri: Avaliação Mensal; Planejamento alimentar personalizado
+- **Plano Be The One (O mais completo do Studio):** 
+  - Treinos de 60 minutos, até 2 por dia
+  - Fisio: 2 sessões semanais com fisioterapeuta
+  - Nutri: Avaliação Mensal; Planejamento alimentar personalizado
+  - *(Prioridade no agendamento)*
 
-Os valores não precisam necessariamente ser expostos publicamente, podendo ser direcionados para contato comercial.
+Por decisão comercial das marcas, os valores dos planos não são exibidos no site. O visitante conhece os planos, vivencia o serviço na aula experimental e, depois, negocia o valor diretamente com a equipe: na One to One, o próprio aluno; na PKZ, os pais ou responsáveis.
 
 ---
 
@@ -388,6 +420,7 @@ Os requisitos RF04 a RF16 (plataforma logada) e o RF22 (link do aplicativo) fica
 | RF22 | Aplicativo | O site deverá disponibilizar link para download/acesso ao aplicativo utilizado pela operação. |
 | RF23 | Agendamento de aula experimental | Cada landing page deverá disponibilizar uma chamada para ação (CTA) em destaque, específica da sua marca, que permita ao visitante agendar uma aula experimental: a landing page da PKZ apresentará o CTA da PKZ e a landing page da One to One apresentará o CTA da One to One. Ao acionar o CTA, o visitante deverá escolher o dia e o horário, informar nome, e-mail e telefone e receber uma confirmação da solicitação. O agendamento não exige cadastro prévio. |
 | RF24 | Disponibilidade de horários | O sistema deverá mostrar quais horários estão livres e quais estão ocupados, e horários ocupados não poderão ser selecionados. Se o horário escolhido for ocupado por outra pessoa enquanto o visitante preenche os dados, ele deverá ser avisado e poderá escolher outro horário livre, impedindo que o mesmo horário seja agendado duas vezes. |
+| RF25 | Planos de atendimento | Cada landing page deverá apresentar os planos da sua marca, com nome e descrição breve do pacote, sem exibir valores. A seção deverá conduzir o visitante ao agendamento da aula experimental (RF23) e ao contato com a equipe de atendimento (RF19/RF20) para caso deseje saber mais sobre os planos. |
 
 ### 5.2 Requisitos não funcionais
 
@@ -422,13 +455,15 @@ O projeto possui algumas restrições iniciais:
 - O WhatsApp será inicialmente utilizado como canal de contato;
 - A integração nativa com WhatsApp poderá ser desenvolvida posteriormente;
 - Algumas informações poderão depender de dados fornecidos pelos gestores.
+- O site não exibe valores de planos.
 
 ### 6.2 Premissas
 
 Considera-se que:
 
 - As marcas possuem conteúdo visual suficiente para construção da galeria;
-- Os gestores fornecerão informações sobre alunos, avaliações e treinamentos;
+- A equipe de atendimento fornecerá informações sobre alunos, avaliações, treinamentos e mais detalhes sobre planos;
+- A negociação de valores dos planos ocorre por fora da plataforma, preferencialmente, após a aula experimental;
 - A metodologia PKZ permanecerá baseada em avaliações periódicas;
 - A plataforma será utilizada como complemento, e não substituição, do relacionamento humano;
 - O sistema deverá permitir evolução futura para aplicativo mobile;
